@@ -13,7 +13,17 @@ class MyApp extends StatelessWidget
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        appBar: AppBar(
+          title: Text('I AM RICH'),
+          backgroundColor: Colors.pinkAccent,
+        ),
 
+        backgroundColor: Colors.blue[500],
+        body: Center(
+          child: Image(
+            image: AssetImage('images/diamond.png'),
+          ),
+        ),
       )
     );
   }
